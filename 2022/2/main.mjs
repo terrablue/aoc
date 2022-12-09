@@ -30,10 +30,6 @@ const shapesToSign = {
 const mod = (a, m) => a > 0
   ? a % m
   : (a + Math.ceil(-(a / m)) * m) % m;
-console.log(mod(-2, 1));
-console.log(mod(-1, 1));
-console.log(mod(0, 1));
-console.log(mod(1, 1));
 
 const roundScore1 = (opponent, me) => {
   const opponentPlayed = shapes[opponent];
